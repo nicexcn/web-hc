@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Development - HOME CONNECT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="logo">
+            <img src="./asset/logo.png" alt="HomeConnect Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li class="dropdown">
+                <a href="index.html#technology" class="dropdown-toggle">TECHNOLOGY SOLUTION</a>
+                <div class="dropdown-menu">
+                    <a href="rfid.html">RFID</a>
+                    <a href="rtls.html">RTLS</a>
+                    <a href="gps-smartwatch.html">GPS Smart Watch</a>
+                    <a href="iot.html">IoT</a>
+                    <a href="swdev.html">Software Development </a>
+                </div>
+            </li>
+            <li><a href="index.html#site">SITE REFERENCE</a></li>
+            <li><a href="index.html#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <!-- Tech Hero Section -->
+    <section class="tech-hero">
+        <div class="stars" id="stars"></div>
+        <div class="tech-hero-content">
+            <h1 class="tech-title">SOFTWARE DEVELOPMENT</h1>
+            <p class="tech-subtitle">Custom Solutions for Your Business</p>
+        </div>
+    </section>
+
+    <!-- Tech Content Section -->
+    <section class="tech-content-section">
+        <div class="tech-content-container">
+            <div class="tech-intro">
+                <h2 class="section-title">WHAT IS SOFTWARE DEVELOPMENT?</h2>
+                <p class="tech-description">
+                    Software Development (การพัฒนาซอฟต์แวร์) คือ กระบวนการครบวงจรตั้งแต่การคิด, 
+                    วิเคราะห์ความต้องการ, ออกแบบ, เขียนโค้ด (โปรแกรม), ทดสอบ, ไปจนถึงการบำรุงรักษาซอฟต์แวร์หรือแอปพลิเคชันต่างๆ 
+                    เพื่อให้ได้ผลิตภัณฑ์ดิจิทัลที่ตอบสนองปัญหาหรือความต้องการของผู้ใช้ได้จริง ไม่ว่าจะเป็นแอปมือถือ, เว็บไซต์, หรือระบบซอฟต์แวร์สำหรับองค์กร
+                </p>
+            </div>
+
+            <div class="tech-features">
+                <h2 class="section-title">OUR EXPERTISE</h2>
+                <div class="features-grid">
+                    <div class="feature-card" style="margin-left: 100px; margin-right: 100px;">
+                        <p style="font-size: 20px;">ออกแบบและพัฒนา Software ในรูปแบบ Web based application และ Mobile application</p>
+                    </div>
+                   
+                </div>
+            </div>
+
+            <!-- Tech Dropdown Component -->
+            <div class="tech-items">
+                <!-- Item 1: Database -->
+                <div class="tech-item-wrapper">
+                    <div class="tech-item" onclick="toggleDropdown('database')">
+                        <div class="tech-icon">
+                            <img src="asset/sw/sw1.png" alt="Database">
+                        </div>
+                        <div class="tech-label">Database</div>
+                    </div>
+                    <div class="dropdown-content" id="database">
+                        <button class="close-btn" onclick="closeDropdown('database')">×</button>
+                        <div class="dropdown-title">Database</div>
+                        <div class="dropdown-items">
+                            <span class="dropdown-item">MySQL</span>
+                            <span class="dropdown-item">SQL Server</span>
+                            <span class="dropdown-item">PostgreSQL</span>
+                            <span class="dropdown-item">Oracle</span>
+                            <span class="dropdown-item">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item 2: OS/Platform -->
+                <div class="tech-item-wrapper">
+                    <div class="tech-item" onclick="toggleDropdown('platform')">
+                        <div class="tech-icon">
+                            <img src="asset/sw/sw2.png" alt="OS / Platform">
+                        </div>
+                        <div class="tech-label">OS / Platform</div>
+                    </div>
+                    <div class="dropdown-content" id="platform">
+                        <button class="close-btn" onclick="closeDropdown('platform')">×</button>
+                        <div class="dropdown-title">OS / Platform</div>
+                        <div class="dropdown-items">
+                            <span class="dropdown-item">Unix / Linux</span>
+                            <span class="dropdown-item">Windows</span>
+                            <span class="dropdown-item">AWS Cloud</span>
+                            <span class="dropdown-item">Google Cloud</span>
+                            <span class="dropdown-item">Huawei Cloud</span>
+                            <span class="dropdown-item">Azure Cloud</span>
+                            <span class="dropdown-item">WordPress</span>
+                            <span class="dropdown-item">iOS</span>
+                            <span class="dropdown-item">Android</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Item 3: Programming Language -->
+                <div class="tech-item-wrapper">
+                    <div class="tech-item" onclick="toggleDropdown('programming')">
+                        <div class="tech-icon">
+                            <img src="asset/sw/sw3.png" alt="Programming Language">
+                        </div>
+                        <div class="tech-label">Programming Language</div>
+                    </div>
+                    <div class="dropdown-content" id="programming">
+                        <button class="close-btn" onclick="closeDropdown('programming')">×</button>
+                        <div class="dropdown-title">Programming Language</div>
+                        <div class="dropdown-items">
+                            <span class="dropdown-item">C++</span>
+                            <span class="dropdown-item">C#</span>
+                            <span class="dropdown-item">Java</span>
+                            <span class="dropdown-item">Kotlin</span>
+                            <span class="dropdown-item">PHP</span>
+                            <span class="dropdown-item">Python</span>
+                            <span class="dropdown-item">Go</span>
+                            <span class="dropdown-item">Javascript</span>
+                            <span class="dropdown-item">Objective C</span>
+                            <span class="dropdown-item">Swift</span>
+                            <span class="dropdown-item">Flutter</span>
+                            <span class="dropdown-item">React Native</span>
+                            <span class="dropdown-item">Node.js</span>
+                            <span class="dropdown-item">React.js</span>
+                            <span class="dropdown-item">Vue.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="tech-applications">
+                <h2 class="section-title" style="margin-top: 50px;"></h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="final-cta">
+        <h2 class="final-cta-title">BUILD YOUR CUSTOM SOLUTION</h2>
+        <p class="final-cta-description">
+            Let's create software that drives your business forward. Contact us to discuss your project.
+        </p>
+        <a href="index.html#contact" class="cta-button">LET'S CONNECT WIHT US !</a>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

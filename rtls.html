@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTLS - HOME CONNECT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="logo">
+            <img src="./asset/logo.png" alt="HomeConnect Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">HOME</a></li>
+            <li class="dropdown">
+                <a href="index.html#technology" class="dropdown-toggle">TECHNOLOGY SOLUTION</a>
+                <div class="dropdown-menu">
+                    <a href="rfid.html">RFID</a>
+                    <a href="rtls.html">RTLS</a>
+                    <a href="gps-smartwatch.html">GPS & Smart Watch</a>
+                    <a href="iot.html">IoT</a>
+                    <a href="swdev.html">SW Dev</a>
+                </div>
+            </li>
+            <li><a href="index.html#site">SITE REFERENCE</a></li>
+            <li><a href="index.html#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <!-- Tech Hero Section -->
+    <section class="tech-hero">
+        <div class="stars" id="stars"></div>
+        <div class="tech-hero-content">
+            <h1 class="tech-title">RTLS TECHNOLOGY</h1>
+            <p class="tech-subtitle">Real-Time Location System</p>
+        </div>
+    </section>
+
+    <!-- Tech Content Section -->
+    <section class="tech-content-section">
+        <div class="tech-content-container">
+            <div class="tech-intro">
+                <h2 class="section-title">WHAT IS RTLS?</h2>
+                <p class="tech-description">
+                    RTLS (Real-Time Locating System) คือ ระบบระบุตำแหน่งแบบเรียลไทม์ เป็นเทคโนโลยีที่ใช้ติดตามและระบุตำแหน่งของบุคคล, 
+                    วัตถุ, หรือทรัพย์สินได้ทันทีภายในพื้นที่จำกัด โดยอาศัยการส่งสัญญาณระหว่างอุปกรณ์ที่ติดอยู่กับวัตถุ (Tags) กับตัวรับสัญญาณ (Anchors) 
+                    ในพื้นที่นั้นๆ โดยใช้เทคโนโลยีอย่าง Bluetooth Low Energy (BLE), Wi-Fi, RFID, หรือ UWB 
+                    เพื่อให้เห็นตำแหน่งที่แน่นอนบนแผนที่ดิจิทัลแบบสดๆ เหมาะสำหรับโรงงาน, โรงพยาบาล, คลังสินค้า เพื่อเพิ่มประสิทธิภาพและความปลอดภัย
+                </p>
+            </div>
+
+            <!-- RTLS TECHNOLOGIES Main Section -->
+            <div style="margin-top: 80px; margin-bottom: 80px;">
+                <h2 class="section-title" style="text-align: center; margin-bottom: 40px;">RTLS TECHNOLOGIES</h2>
+                
+                <!-- Technology Navigation Items -->
+                <div class="applications-grid" style="max-width: 900px; margin: 0 auto 60px;">
+                    <a href="#ble-aoa" class="application-item" style="text-decoration: none; cursor: pointer;">
+                        <h3>BLE with AOA</h3>
+                        <p>Bluetooth Low Energy with Angle of Arrival for precise indoor positioning with centimeter accuracy.</p>
+                    </a>
+                    <a href="#aruba-wifi" class="application-item" style="text-decoration: none; cursor: pointer;">
+                        <h3>Aruba WIFI Tracking</h3>
+                        <p>Wi-Fi-based location tracking using existing network infrastructure for seamless deployment.</p>
+                    </a>
+                    <a href="#beacon-tech" class="application-item" style="text-decoration: none; cursor: pointer;">
+                        <h3>Beacon Technology</h3>
+                        <p>Low-power Bluetooth beacons for proximity-based location services and asset tracking.</p>
+                    </a>
+                </div>
+                
+                <!-- BLE with AOA Section -->
+                <div class="tech-features" id="ble-aoa">
+                    <h3 class="subsection-title" style="color: #00d4ff; text-align: left; margin-bottom: 30px;">BLE with AOA</h3>
+                    
+                    <!-- Content with Images -->
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: start;">
+                        <!-- Left: Text Content -->
+                        <div>
+                            <div style="margin-bottom: 25px;">
+                                <p style="color: #333; line-height: 1.8; font-size: 15px; margin-bottom: 5px;">
+                                    <strong>• Quuppa (ระบบติดตามและค้นหาตำแหน่งอัจฉริยะ)</strong>
+                                </p>
+                                <p style="color: #555; line-height: 1.8; font-size: 15px; padding-left: 12px;">
+                                    สามารถบอกตำแหน่งอย่างแม่นยำที่แน่นอน real-time โดยใช้คลื่นสัญญาณของเทคโนโลยี Bluetooth Low Energy (BLE) 
+                                    ด้วยเทคนิคการค้าตำแหน่งแบบ Angle-of Arrival จึง Quuppa ใช้พัฒนาสำหรับการบูรณาการมาสู่องค์กร หมวกหมู่ 
+                                    Quuppa Engine Software ในการประมวลผลที่ครอบคลุม ทำให้สามารถบอกตำแหน่งได้อย่างแม่นยำ
+                                </p>
+                            </div>
+                            
+                            <div style="margin-bottom: 25px;">
+                                <h4 style="font-size: 16px; color: #000; margin-bottom: 8px; font-weight: 700;">Locators</h4>
+                                <p style="color: #555; line-height: 1.8; font-size: 15px; padding-left: 12px;">
+                                    อุปกรณ์ที่ใช้สำหรับการคำนวณความละเอียดสูง<br>
+                                    อิงกำหนดที่รับสัญญาณจาก BLE Tag<br>
+                                    และหาทิศทางของสัญญาณที่วิ่งเข้ามาได้อย่างแม่นยำ
+                                </p>
+                            </div>
+                            
+                            <div style="margin-bottom: 25px;">
+                                <h4 style="font-size: 16px; color: #000; margin-bottom: 8px; font-weight: 700;">Tags</h4>
+                                <p style="color: #555; line-height: 1.8; font-size: 15px; padding-left: 12px;">
+                                    อุปกรณ์รับสัญญาณที่มีความหลายหลาย<br>
+                                    นอกจากนี้ยังสื่อสารได้แบบ 2 ทาง<br>
+                                    และรับส่งข้อมูลสนับนอกจากแสนง่ายด้านนำแปม้งได้ด้วย
+                                </p>
+                            </div>
+                            
+                            <div style="margin-bottom: 0;">
+                                <h4 style="font-size: 16px; color: #000; margin-bottom: 8px; font-weight: 700;">Positioning Engine</h4>
+                                <p style="color: #555; line-height: 1.8; font-size: 15px; padding-left: 12px;">
+                                    การประมวลผลสัญญาณ เพื่อลดความผิดพลาด (error)<br>
+                                    ในการคำนวนหาตำแหน่งของ Tag ให้ได้แม่นยำที่สุด<br>
+                                    นอกจากนี้ยังพบว่ามีใช้งานได้อิมเพรสหลากหลาย เป็น Virtual Zone, Virtual Tag, 3D Map, Send command to Tag<br>
+                                    และยังมี API ให้เชื่อมติด Application อื่นๆ<br>
+                                    เพื่อต่อยอดการใช้งานที่หลากหลายมากยิ่งขึ้น
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- Right: Stacked Images -->
+                        <div style="display: flex; flex-direction: column; gap: 20px;">
+                            <div>
+                                <img src="./asset/rtls/BLE1.png" alt="BLE with AOA Components" style="width: 100%; height: auto; border-radius: 10px;">
+                            </div>
+                            <div>
+                                <img src="./asset/rtls/BLE2.png" alt="BLE with AOA Positioning" style="width: 100%; height: auto; border-radius: 10px;">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Standard Feature Software Section -->
+                    <div style="margin-top: 60px;">
+                        <h4 style="font-size: 18px; color: #000; margin-bottom: 20px; font-weight: 700;">Standard Feature Software</h4>
+                        
+                        <!-- Table 80% width centered -->
+                        <div style="width: 80%; margin: 0 auto; overflow-x: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); border: 1px solid #e0e0e0; transition: box-shadow 0.3s ease;">
+                            <table style="width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden;">
+                                <thead>
+                                    <tr style="background: linear-gradient(135deg, #1a3a52 0%, #2d5a7b 100%); position: relative;">
+                                        <th style="padding: 18px 24px; text-align: left; color: #fff; font-size: 16px; font-weight: 600; width: 25%; border-bottom: 3px solid #00d4ff; position: relative;">
+                                            <span style="position: relative; z-index: 1;">Feature</span>
+                                        </th>
+                                        <th style="padding: 18px 24px; text-align: left; color: #fff; font-size: 16px; font-weight: 600; width: 75%; border-bottom: 3px solid #00d4ff;">Detail</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr style="border-bottom: 1px solid #e8eaed; transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.01)'; this.style.boxShadow='0 4px 12px rgba(0, 212, 255, 0.15)'; this.style.background='#f0f9ff';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'; this.style.background='#fafbfc';">
+                                        <td style="padding: 16px 24px; color: #1f1f1f; font-size: 14px; font-weight: 600; vertical-align: top; background: #fafbfc; position: relative;">
+                                            <span style="display: inline-block; width: 8px; height: 8px; background: #00d4ff; border-radius: 50%; margin-right: 10px;"></span>Dashboard
+                                        </td>
+                                        <td style="padding: 16px 24px; color: #5f6368; font-size: 14px; line-height: 1.6; background: #fafbfc;">แสดงภาพรวมการทำงานของระบบ เช่น Performance Resource</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #e8eaed; transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.01)'; this.style.boxShadow='0 4px 12px rgba(0, 212, 255, 0.15)'; this.style.background='#f0f9ff';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'; this.style.background='#ffffff';">
+                                        <td style="padding: 16px 24px; color: #1f1f1f; font-size: 14px; font-weight: 600; vertical-align: top; background: #ffffff;">
+                                            <span style="display: inline-block; width: 8px; height: 8px; background: #00d4ff; border-radius: 50%; margin-right: 10px;"></span>แผนที่
+                                        </td>
+                                        <td style="padding: 16px 24px; color: #5f6368; font-size: 14px; line-height: 1.6; background: #ffffff;">ทำการ Monitor แสดงแผนที่ ตำแหน่ง Tag</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #e8eaed; transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.01)'; this.style.boxShadow='0 4px 12px rgba(0, 212, 255, 0.15)'; this.style.background='#f0f9ff';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'; this.style.background='#fafbfc';">
+                                        <td style="padding: 16px 24px; color: #1f1f1f; font-size: 14px; font-weight: 600; vertical-align: top; background: #fafbfc;">
+                                            <span style="display: inline-block; width: 8px; height: 8px; background: #00d4ff; border-radius: 50%; margin-right: 10px;"></span>ค้นหาตามตำแหน่ง
+                                        </td>
+                                        <td style="padding: 16px 24px; color: #5f6368; font-size: 14px; line-height: 1.6; background: #fafbfc;">กำหนด สร้าง ลบ ค้นหาตามตำแหน่งใต้ แท็ก BLE</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #e8eaed; transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.01)'; this.style.boxShadow='0 4px 12px rgba(0, 212, 255, 0.15)'; this.style.background='#f0f9ff';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'; this.style.background='#ffffff';">
+                                        <td style="padding: 16px 24px; color: #1f1f1f; font-size: 14px; font-weight: 600; vertical-align: top; background: #ffffff;">
+                                            <span style="display: inline-block; width: 8px; height: 8px; background: #00d4ff; border-radius: 50%; margin-right: 10px;"></span>ที่ตรวจและระดับที่
+                                        </td>
+                                        <td style="padding: 16px 24px; color: #5f6368; font-size: 14px; line-height: 1.6; background: #ffffff;">กำหนด บอกที่ตรวจ ที่ แท็ก และที่อยู่ตัวเส้นใต้วางอนที่กำหนด</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #e8eaed; transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.01)'; this.style.boxShadow='0 4px 12px rgba(0, 212, 255, 0.15)'; this.style.background='#f0f9ff';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'; this.style.background='#fafbfc';">
+                                        <td style="padding: 16px 24px; color: #1f1f1f; font-size: 14px; font-weight: 600; vertical-align: top; background: #fafbfc;">
+                                            <span style="display: inline-block; width: 8px; height: 8px; background: #00d4ff; border-radius: 50%; margin-right: 10px;"></span>แท็ก BLE
+                                        </td>
+                                        <td style="padding: 16px 24px; color: #5f6368; font-size: 14px; line-height: 1.6; background: #fafbfc;">ใช้ในการค้นหา โปรไฟล์ ใช้ แท็ก</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #e8eaed; transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.01)'; this.style.boxShadow='0 4px 12px rgba(0, 212, 255, 0.15)'; this.style.background='#f0f9ff';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'; this.style.background='#ffffff';">
+                                        <td style="padding: 16px 24px; color: #1f1f1f; font-size: 14px; font-weight: 600; vertical-align: top; background: #ffffff;">
+                                            <span style="display: inline-block; width: 8px; height: 8px; background: #00d4ff; border-radius: 50%; margin-right: 10px;"></span>กลุ่มของแท็ก BLE
+                                        </td>
+                                        <td style="padding: 16px 24px; color: #5f6368; font-size: 14px; line-height: 1.6; background: #ffffff;">ในการการกำหนด ประเภทของ แท็ก เพื่อแสดงลุ่มตามประเภทการใช้งาน</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #e8eaed; transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.01)'; this.style.boxShadow='0 4px 12px rgba(0, 212, 255, 0.15)'; this.style.background='#f0f9ff';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'; this.style.background='#fafbfc';">
+                                        <td style="padding: 16px 24px; color: #1f1f1f; font-size: 14px; font-weight: 600; vertical-align: top; background: #fafbfc;">
+                                            <span style="display: inline-block; width: 8px; height: 8px; background: #00d4ff; border-radius: 50%; margin-right: 10px;"></span>ชำนาญแท็ก BLE
+                                        </td>
+                                        <td style="padding: 16px 24px; color: #5f6368; font-size: 14px; line-height: 1.6; background: #fafbfc;">แสดง ชำนาญแท็กที่ถูกตอบรู้ ในแต่ละ ฟิวล์</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #e8eaed; transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.01)'; this.style.boxShadow='0 4px 12px rgba(0, 212, 255, 0.15)'; this.style.background='#f0f9ff';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'; this.style.background='#ffffff';">
+                                        <td style="padding: 16px 24px; color: #1f1f1f; font-size: 14px; font-weight: 600; vertical-align: top; background: #ffffff;">
+                                            <span style="display: inline-block; width: 8px; height: 8px; background: #00d4ff; border-radius: 50%; margin-right: 10px;"></span>ตำแหน่งแท็ก BLE
+                                        </td>
+                                        <td style="padding: 16px 24px; color: #5f6368; font-size: 14px; line-height: 1.6; background: #ffffff;">แสดงตำแหน่งแท็ก BLE ที่ทศพิติ</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #e8eaed; transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.01)'; this.style.boxShadow='0 4px 12px rgba(0, 212, 255, 0.15)'; this.style.background='#f0f9ff';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'; this.style.background='#fafbfc';">
+                                        <td style="padding: 16px 24px; color: #1f1f1f; font-size: 14px; font-weight: 600; vertical-align: top; background: #fafbfc;">
+                                            <span style="display: inline-block; width: 8px; height: 8px; background: #00d4ff; border-radius: 50%; margin-right: 10px;"></span>บันทึกพฤตรกรณ์
+                                        </td>
+                                        <td style="padding: 16px 24px; color: #5f6368; font-size: 14px; line-height: 1.6; background: #fafbfc;">แสดงรายการบันทึกพฤตรกรณ์ แจ้งเชื่อน</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #e8eaed; transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.01)'; this.style.boxShadow='0 4px 12px rgba(0, 212, 255, 0.15)'; this.style.background='#f0f9ff';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'; this.style.background='#ffffff';">
+                                        <td style="padding: 16px 24px; color: #1f1f1f; font-size: 14px; font-weight: 600; vertical-align: top; background: #ffffff;">
+                                            <span style="display: inline-block; width: 8px; height: 8px; background: #00d4ff; border-radius: 50%; margin-right: 10px;"></span>เจ้าหน้าที่
+                                        </td>
+                                        <td style="padding: 16px 24px; color: #5f6368; font-size: 14px; line-height: 1.6; background: #ffffff;">เพิ่ม ลบ ข้อมูลเจ้าหน้าที่ ผู้ผลตรบบ</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #e8eaed; transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.01)'; this.style.boxShadow='0 4px 12px rgba(0, 212, 255, 0.15)'; this.style.background='#f0f9ff';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'; this.style.background='#fafbfc';">
+                                        <td style="padding: 16px 24px; color: #1f1f1f; font-size: 14px; font-weight: 600; vertical-align: top; background: #fafbfc;">
+                                            <span style="display: inline-block; width: 8px; height: 8px; background: #00d4ff; border-radius: 50%; margin-right: 10px;"></span>ตังค่า
+                                        </td>
+                                        <td style="padding: 16px 24px; color: #5f6368; font-size: 14px; line-height: 1.6; background: #fafbfc;">ตังคำเจ้มการทำงานให้เป็นมาตรฐาน</td>
+                                    </tr>
+                                    <tr style="transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.01)'; this.style.boxShadow='0 4px 12px rgba(0, 212, 255, 0.15)'; this.style.background='#f0f9ff';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'; this.style.background='#ffffff';">
+                                        <td style="padding: 16px 24px; color: #1f1f1f; font-size: 14px; font-weight: 600; vertical-align: top; background: #ffffff;">
+                                            <span style="display: inline-block; width: 8px; height: 8px; background: #00d4ff; border-radius: 50%; margin-right: 10px;"></span>Export Report
+                                        </td>
+                                        <td style="padding: 16px 24px; color: #5f6368; font-size: 14px; line-height: 1.6; background: #ffffff;">
+                                            สามารถ Export Report บันทึกพฤตรกรณ์ยังเยงตริใต้<br>
+                                            สามารถ Export Report ตำแหน่งแท็ก BLE ใต้<br>
+                                            สามารถ Export รายงาน แท็ก และ รายงี้อยื่น ทัจงอนใต้
+                                        </td>
+                                    </tr>
+                                
+                                    </tbody>
+                                </table>
+                            </div>
+                            
+                            <!-- Images below table -->
+                            <div style="margin-top: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+                                <div>
+                                    <img src="./asset/rtls/BLE3.png" alt="BLE Feature 3" style="width: 100%; height: auto; border-radius: 10px;">
+                                </div>
+                                <div>
+                                    <img src="./asset/rtls/BLE4.png" alt="BLE Feature 4" style="width: 100%; height: auto; border-radius: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Divider Line -->
+                <div style="border-bottom: 1px solid rgba(0, 0, 0, 0.1); margin: 60px 0;"></div>
+
+                <!-- Aruba WIFI Tracking Section -->
+                <div class="tech-features" style="margin-top: 80px;" id="aruba-wifi">
+                    <h3 class="subsection-title" style="color: #00d4ff; text-align: left; margin-bottom: 30px;">Aruba WIFI Tracking</h3>
+                    
+                    <!-- Content with Images -->
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: start;">
+                        <!-- Left: Text Content -->
+                        <div>
+                            <p style="color: #555; line-height: 1.8; font-size: 15px; margin-bottom: 30px;">
+                                สามารถระบุตำแหน่งได้แม่นยำมากที่ตั้ง Aruba Access Point โดยใช้คลื่นสัญญาณของ Bluetooth Low Energy (BLE) โดยวิธี Trilaterationสามารถใช้งานร่วมกับการติดตั้ง Access Point ที่ใช้งาน WIFI ภายในองค์กรได้โดยไม่ต้องติดตั้งอุปกรณ์ ภายนอกสัญญาณเพิ่ม
+                            </p>
+                            
+                            <div style="margin-bottom: 30px;">
+                        
+                                <div>
+                                    <img src="./asset/rtls/aruba1.png" alt="Aruba Topology" style="width: 100%; height: auto; border-radius: 10px;">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Right: Image -->
+                        <div>
+                            <img src="./asset/rtls/aruba2.png" alt="Aruba WIFI Tracking Interface" style="width: 100%; height: auto; border-radius: 10px; margin-bottom: 20px;">
+                            
+                            <!-- Small Feature Table -->
+                            <div style="border-radius: 6px; overflow: hidden; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); border: 1px solid #e0e0e0;">
+                                <table style="width: 100%; border-collapse: collapse; font-size: 13px;">
+                                    <thead>
+                                        <tr style="background: #1a3a52;">
+                                            <th style="padding: 12px 18px; text-align: left; color: #fff; font-weight: 600; border-bottom: 2px solid #0d2438;">Feature</th>
+                                            <th style="padding: 12px 18px; text-align: left; color: #fff; font-weight: 600; border-bottom: 2px solid #0d2438;">Detail</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr style="border-bottom: 1px solid #e8eaed; transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.01)'; this.style.boxShadow='0 4px 12px rgba(0, 212, 255, 0.15)'; this.style.background='#f0f9ff';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'; this.style.background='#fafbfc';">
+                                        <td style="padding: 10px 16px; color: #1f1f1f; font-size: 12px; font-weight: 600; vertical-align: top; background: #fafbfc; position: relative;">
+                                            <span style="display: inline-block; width: 8px; height: 8px; background: #00d4ff; border-radius: 50%; margin-right: 10px;"></span>แผนที่
+                                        </td>
+                                        <td style="padding: 10px 16px; color: #5f6368; font-size: 12px; line-height: 1.6; background: #fafbfc;">หน้า Monitor แสดงแผนที่ ตำแหน่ง Tag</td>
+                                        </tr>
+                                        <tr style="border-bottom: 1px solid #e8eaed; transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.01)'; this.style.boxShadow='0 4px 12px rgba(0, 212, 255, 0.15)'; this.style.background='#f0f9ff';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'; this.style.background='#fafbfc';">
+                                        <td style="padding: 10px 16px; color: #1f1f1f; font-size: 12px; font-weight: 600; vertical-align: top; background: #fafbfc; position: relative;">
+                                            <span style="display: inline-block; width: 8px; height: 8px; background: #00d4ff; border-radius: 50%; margin-right: 10px;"></span>Timeline
+                                        </td>
+                                        <td style="padding: 10px 16px; color: #5f6368; font-size: 12px; line-height: 1.6; background: #fafbfc;">แสดงจุดที่แท็กผ่านทั้งหมดใน 1 วัน</td>
+                                        </tr>
+                                        <tr style="border-bottom: 1px solid #e8eaed; transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.01)'; this.style.boxShadow='0 4px 12px rgba(0, 212, 255, 0.15)'; this.style.background='#f0f9ff';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'; this.style.background='#fafbfc';">
+                                        <td style="padding: 10px 16px; color: #1f1f1f; font-size: 12px; font-weight: 600; vertical-align: top; background: #fafbfc; position: relative;">
+                                            <span style="display: inline-block; width: 8px; height: 8px; background: #00d4ff; border-radius: 50%; margin-right: 10px;"></span>อุปกรณ์
+                                        </td>
+                                        <td style="padding: 10px 16px; color: #5f6368; font-size: 12px; line-height: 1.6; background: #fafbfc;">หน้าอุปกรณ์</td>
+                                        </tr>
+                                        <tr style="border-bottom: 1px solid #e8eaed; transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.01)'; this.style.boxShadow='0 4px 12px rgba(0, 212, 255, 0.15)'; this.style.background='#f0f9ff';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'; this.style.background='#fafbfc';">
+                                        <td style="padding: 10px 16px; color: #1f1f1f; font-size: 12px; font-weight: 600; vertical-align: top; background: #fafbfc; position: relative;">
+                                            <span style="display: inline-block; width: 8px; height: 8px; background: #00d4ff; border-radius: 50%; margin-right: 10px;"></span>แจ้งเตือน
+                                        </td>
+                                        <td style="padding: 10px 16px; color: #5f6368; font-size: 12px; line-height: 1.6; background: #fafbfc;">แจ้งเตือน แท็กออกนอกพื้นที่ เข้าเขตห่วงห้าม</td>
+                                        </tr>
+                                        <tr style="border-bottom: 1px solid #e8eaed; transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.01)'; this.style.boxShadow='0 4px 12px rgba(0, 212, 255, 0.15)'; this.style.background='#f0f9ff';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'; this.style.background='#fafbfc';">
+                                        <td style="padding: 10px 16px; color: #1f1f1f; font-size: 12px; font-weight: 600; vertical-align: top; background: #fafbfc; position: relative;">
+                                            <span style="display: inline-block; width: 8px; height: 8px; background: #00d4ff; border-radius: 50%; margin-right: 10px;"></span>แท็ก BLE
+                                        </td>
+                                        <td style="padding: 10px 16px; color: #5f6368; font-size: 12px; line-height: 1.6; background: #fafbfc;">แสดงรายการ แท็ก BLE ทั้งหมดในระบบ แสดงรายละเอียดต่างๆ ของแท็ก BLE</td>
+                                        </tr>
+                                        <tr style="border-bottom: 1px solid #e8eaed; transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.01)'; this.style.boxShadow='0 4px 12px rgba(0, 212, 255, 0.15)'; this.style.background='#f0f9ff';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'; this.style.background='#fafbfc';">
+                                        <td style="padding: 10px 16px; color: #1f1f1f; font-size: 12px; font-weight: 600; vertical-align: top; background: #fafbfc; position: relative;">
+                                            <span style="display: inline-block; width: 8px; height: 8px; background: #00d4ff; border-radius: 50%; margin-right: 10px;"></span>กลุ่มของ แท็ก BLE
+                                        </td>
+                                        <td style="padding: 10px 16px; color: #5f6368; font-size: 12px; line-height: 1.6; background: #fafbfc;">สำหรับสร้างกลุ่มของ แท็ก แยกตามประเภทที่ต้องการ</td>
+                                        </tr>
+                                        <tr style="border-bottom: 1px solid #e8eaed; transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.01)'; this.style.boxShadow='0 4px 12px rgba(0, 212, 255, 0.15)'; this.style.background='#f0f9ff';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'; this.style.background='#fafbfc';">
+                                        <td style="padding: 10px 16px; color: #1f1f1f; font-size: 12px; font-weight: 600; vertical-align: top; background: #fafbfc; position: relative;">
+                                            <span style="display: inline-block; width: 8px; height: 8px; background: #00d4ff; border-radius: 50%; margin-right: 10px;"></span>เจ้าหน้าที่
+                                        </td>
+                                        <td style="padding: 10px 16px; color: #5f6368; font-size: 12px; line-height: 1.6; background: #fafbfc;">เพิ่ม ลบ ข้อมูลเจ้าหน้าที่ ผู้ดูแลระบบ</td>
+                                        </tr>
+                                        <tr style="border-bottom: 1px solid #e8eaed; transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.01)'; this.style.boxShadow='0 4px 12px rgba(0, 212, 255, 0.15)'; this.style.background='#f0f9ff';" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none'; this.style.background='#fafbfc';">
+                                        <td style="padding: 10px 16px; color: #1f1f1f; font-size: 12px; font-weight: 600; vertical-align: top; background: #fafbfc; position: relative;">
+                                            <span style="display: inline-block; width: 8px; height: 8px; background: #00d4ff; border-radius: 50%; margin-right: 10px;"></span>Customization
+                                        </td>
+                                        <td style="padding: 10px 16px; color: #5f6368; font-size: 12px; line-height: 1.6; background: #fafbfc;">รองรับการ เขียนในแกรมให้ทำงานตาม Requirement</td>
+                                        </tr>
+                                    
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tag Support Section -->
+                    <div style="margin-top: 60px;">
+                        <h4 style="font-size: 18px; color: #000; margin-bottom: 20px; font-weight: 700;">Tag Support</h4>
+                        <div style="text-align: center;">
+                            <img src="./asset/rtls/aruba3.png" alt="Tag Support" style="width: 100%; max-width: 1000px; height: auto; border-radius: 10px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+                <!-- Divider Line -->
+                <div style="border-bottom: 1px solid rgba(0, 0, 0, 0.1); margin: 60px 0;"></div>
+
+                <!-- Beacon Technology Section -->
+                <div class="tech-features" style="margin-top: 80px; padding: 0 200px;" id="beacon-tech">
+                    <h3 class="subsection-title" style="color: #00d4ff; text-align: left; margin-bottom: 30px;">Beacon Technology</h3>
+                    
+                    <!-- Content with Images -->
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: start;">
+                        <!-- Left: Text Content -->
+                        <div>
+                            <p style="color: #555; line-height: 1.8; font-size: 15px; margin-bottom: 30px;">
+                                Beacon คืออุปกรณ์ส่งสัญญาณ Bluetooth Low Energy (BLE) ที่ใช้ส่งข้อมูลหรือสัญญาณไปยังอุปกรณ์ใกล้เคียง เช่น สมาร์ทโฟน หรือแท็บเล็ต โดยไม่ต้องใช้อินเทอร์เน็ตหรือเชื่อมต่อเครือข่ายไร้สาย
+                            </p>
+                            
+                            <div style="margin-bottom: 25px;">
+                                <p style="color: #333; line-height: 1.8; font-size: 15px; margin-bottom: 15px;">
+                                    การทำงาน Beacon ส่งสัญญาณที่สามารถรับรู้ได้จากอุปกรณ์ที่เปิดใช้งาน Bluetooth ซึ่งจะให้ข้อมูลที่เกี่ยวข้องกับตำแหน่งของผู้ใช้ เช่น โปรโมชั่น, ข้อเสนอพิเศษ หรือข้อมูลนำทาง
+                                </p>
+                            </div>
+                            
+                            <div style="margin-bottom: 25px;">
+                                <h4 style="font-size: 16px; color: #000; margin-bottom: 12px; font-weight: 700;">ประโยชน์หลัก</h4>
+                                <p style="color: #555; line-height: 1.8; font-size: 15px; padding-left: 12px;">
+                                    • การตลาด: ส่งข้อมูลโฆษณาหรือโปรโมชั่นให้กับลูกค้าหรือผู้ที่อยู่ใกล้ Beacon<br>
+                                    • การนำทางภายใน: เช่น ในห้างสรรพสินค้า, สนามบิน, หรือพิพิธภัณฑ์ เพื่อช่วยผู้ใช้ในการหาตำแหน่งหรือเส้นทาง<br>
+                                    • การติดตาม: ใช้ติดตามสินค้าหรือทรัพย์สินภายในพื้นที่ เช่น คลังสินค้า
+                                </p>
+                            </div>
+                            
+                            <div style="margin-bottom: 25px;">
+                                <h4 style="font-size: 16px; color: #000; margin-bottom: 12px; font-weight: 700;">ข้อดี</h4>
+                                <p style="color: #555; line-height: 1.8; font-size: 15px; padding-left: 12px;">
+                                    • ประหยัดพลังงาน: ใช้พลังงานต่ำเนื่องจากเทคโนโลยี BLE<br>
+                                    • ไม่ต้องใช้อินเทอร์เน็ต: สามารถทำงานได้โดยไม่ต้องเชื่อมต่อกับเครือข่าย<br>
+                                    • ความแม่นยำสูง: สามารถให้ข้อมูลหรือคำแนะนำตามตำแหน่งของผู้ใช้ได้อย่างแม่นยำ
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- Right: Image -->
+                        <div>
+                            <img src="./asset/rtls/beacon1.png" alt="Beacon Technology Overview" style="width: 70%; height: auto; ">
+                        </div>
+                    </div>
+                    
+                    <!-- Beacon ทำงานอย่างไร Section -->
+                    <div style="margin-top: 20px;">
+                        <h4 style="font-size: 18px; color: #000; margin-bottom: 20px; font-weight: 700;">Beacon ทำงานอย่างไร?</h4>
+                        
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; align-items: start;">
+                            <!-- Left: Text -->
+                            <div>
+                                <p style="color: #555; line-height: 1.8; font-size: 15px; margin-bottom: 20px;">
+                                    อุปกรณ์ในระยะของ Beacon จะรับรู้สัญญาณและสามารถแสดงข้อมูลหรือข้อความเฉพาะตำแหน่งได้ เช่น
+                                </p>
+                                <p style="color: #555; line-height: 1.8; font-size: 15px; padding-left: 12px; margin-bottom: 20px;">
+                                    • แจ้งโปรโมชั่นเมื่อเดินผ่านร้านค้า<br>
+                                    • ช่วยนำทางภายในอาคาร<br>
+                                    • ให้ข้อมูลอัตโนมัติในพิพิธภัณฑ์
+                                </p>
+                                
+                                <p style="color: #333; line-height: 1.8; font-size: 15px; margin-bottom: 15px; margin-top: 30px;">
+                                    <strong>Beacon มีหลายรูปแบบ เช่น</strong>
+                                </p>
+                                <p style="color: #555; line-height: 1.8; font-size: 15px; padding-left: 12px;">
+                                    • แบบติดตั้งถาวรภายในอาคาร<br>
+                                    • แบบพกพาขนาดเล็ก<br>
+                                    • แบบ USB สำหรับติดตามทรัพย์สิน
+                                </p>
+                            </div>
+                            
+                            <!-- Right: Image -->
+                           <div style="display: flex; margin-left: -200px; margin-top: 50px;">
+                                <img src="./asset/rtls/beacon2.png" alt="How Beacon Works" style="width: 50%; height: auto; border-radius: 10px;">
+                                <img src="./asset/rtls/beacon3.png" alt="Beacon Applications" style="width: 50%; max-width: 500px; height: auto;">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- ตัวอย่าง สถานที่ต่างๆที่สามารถใช้งาน Beacon -->
+                    <div style="margin-top: 60px;">
+                        <h4 style="font-size: 20px; color: #000; margin-bottom: 30px; font-weight: 700; font-family: 'Prompt', sans-serif;">ตัวอย่าง สถานที่ต่างๆที่สามารถใช้งาน Beacon</h4>
+                    
+                        
+                        <!-- Table -->
+                        <div style="overflow-x: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); border: 1px solid #e0e0e0;">
+                            <table style="width: 100%; border-collapse: collapse; background: #fff;">
+                                <thead>
+                                    <tr style="background: linear-gradient(135deg, #1a3a52 0%, #2d5a7b 100%);">
+                                        <th style="padding: 18px 24px; text-align: left; color: #fff; font-size: 16px; font-weight: 600; font-family: 'Prompt', sans-serif; border-right: 1px solid rgba(255,255,255,0.2);">ประเภทสถานที่</th>
+                                        <th style="padding: 18px 24px; text-align: left; color: #fff; font-size: 16px; font-weight: 600; font-family: 'Prompt', sans-serif; border-right: 1px solid rgba(255,255,255,0.2);">วิธีใช้งาน Beacon</th>
+                                        <th style="padding: 18px 24px; text-align: left; color: #fff; font-size: 16px; font-weight: 600; font-family: 'Prompt', sans-serif;">ตัวอย่าง โปรโมชั่น/Feature</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr style="border-bottom: 1px solid #f0f0f0;">
+                                        <td style="padding: 16px 24px; color: #333; font-size: 14px; line-height: 1.8; vertical-align: top; background: #fafbfc;">
+                                            • ร้านกาแฟ / ร้านอาหาร
+                                        </td>
+                                        <td style="padding: 16px 24px; color: #333; font-size: 14px; line-height: 1.8; vertical-align: top; background: #fafbfc;">
+                                            ติด Beacon ใกล้ทางเข้า/ชั้นโปรโมชั่น
+                                        </td>
+                                        <td style="padding: 16px 24px; color: #333; font-size: 14px; line-height: 1.8; vertical-align: top; background: #fafbfc;">
+                                            - แจ้งเตือนส่วนลดเครื่องดื่มเมื่อผู้ใช้เข้าร้าน<br>
+                                            - แจกคูปองซื้อ 1 แถม 1<br>
+                                            - แจ้งเมนูพิเศษวันนี้
+                                        </td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #f0f0f0;">
+                                        <td style="padding: 16px 24px; color: #333; font-size: 14px; line-height: 1.8; vertical-align: top; background: #ffffff;">
+                                            • ร้านค้าปลีก / ร้านสะดวกซื้อ
+                                        </td>
+                                        <td style="padding: 16px 24px; color: #333; font-size: 14px; line-height: 1.8; vertical-align: top; background: #ffffff;">
+                                            ติด Beacon ในสถานี / รถเมล์ / รถไฟฟ้า
+                                        </td>
+                                        <td style="padding: 16px 24px; color: #333; font-size: 14px; line-height: 1.8; vertical-align: top; background: #ffffff;">
+                                            - แจ้งเตือนโปรสินค้าใกล้หมด<br>
+                                            - สะสมแต้มเพิ่มเฉพาะผู้ใช้ที่อยู่ในร้าน<br>
+                                            - แจกคูปองเงินคืน (Cashback)
+                                        </td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #f0f0f0;">
+                                        <td style="padding: 16px 24px; color: #333; font-size: 14px; line-height: 1.8; vertical-align: top; background: #fafbfc;">
+                                            • ขนส่งสาธารณะ
+                                        </td>
+                                        <td style="padding: 16px 24px; color: #333; font-size: 14px; line-height: 1.8; vertical-align: top; background: #fafbfc;">
+                                            ติด Beacon รอบงาน / บูธ
+                                        </td>
+                                        <td style="padding: 16px 24px; color: #333; font-size: 14px; line-height: 1.8; vertical-align: top; background: #fafbfc;">
+                                            - แจ้งเตือนผู้ใช้เติมเงินบัตร / e-Wallet<br>
+                                            - ส่งข้อมูลเส้นทางและเวลารถ<br>
+                                            - แจกคูปองส่วนลดค่าเดินทาง
+                                        </td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #f0f0f0;">
+                                        <td style="padding: 16px 24px; color: #333; font-size: 14px; line-height: 1.8; vertical-align: top; background: #ffffff;">
+                                            • งาน Event / คอนเสิร์ต / มหกรรม
+                                        </td>
+                                        <td style="padding: 16px 24px; color: #333; font-size: 14px; line-height: 1.8; vertical-align: top; background: #ffffff;">
+                                            ติด Beacon รอบงาน / บูธ
+                                        </td>
+                                        <td style="padding: 16px 24px; color: #333; font-size: 14px; line-height: 1.8; vertical-align: top; background: #ffffff;">
+                                            - แจ้งตารางกิจกรรมหรือโชว์พิเศษ<br>
+                                            - แจกสิทธิพิเศษ / VIP Pass<br>
+                                            - สะสมแต้มแลกของรางวัล
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 16px 24px; color: #333; font-size: 14px; line-height: 1.8; vertical-align: top; background: #fafbfc;">
+                                            • ร้านบริการ / ศูนย์บริการ / โรคยานาล
+                                        </td>
+                                        <td style="padding: 16px 24px; color: #333; font-size: 14px; line-height: 1.8; vertical-align: top; background: #fafbfc;">
+                                            ติด Beacon บริเวณล็อบบี้หรือจุดบริการ
+                                        </td>
+                                        <td style="padding: 16px 24px; color: #333; font-size: 14px; line-height: 1.8; vertical-align: top; background: #fafbfc;">
+                                            - แจ้งเตือนโปรโมชั่นคอร์ส / แพ็กเกจ<br>
+                                            - ส่งข้อความเตือนนัดหมาย<br>
+                                            - แจกคูปองส่วนลดเฉพาะผู้มาใช้บริการ
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                         <!-- 3 Images -->
+                        <div style="display: flex; gap: 150px; margin-top: 50px; justify-content: center;">
+                            <div style="text-align: center;">
+                                <img src="./asset/rtls/beacon4.png" alt="Retail Store" style="width: 100%; max-width: 250px; height: auto; margin-bottom: 15px;">
+                                <p style="color: #333; font-size: 14px; line-height: 1.6;">ติดตั้งอุปกรณ์ภายในร้านค้า,<br>ห่างร้อยชองใกล้ทางเข้า-ออก</p>
+                            </div>
+                            <div style="text-align: center;">
+                                <img src="./asset/rtls/beacon5.png" alt="Office" style="width: 100%; max-width: 250px; height: auto; margin-bottom: 15px;">
+                                <p style="color: #333; font-size: 14px; line-height: 1.6;">จุดเช็งพนักงานเข้าระบบ<br>เพื่อเสนอโปรโมชั่นของร้าน</p>
+                            </div>
+                            <div style="text-align: center;">
+                                <img src="./asset/rtls/beacon6.png" alt="Restaurant" style="width: 100%; max-width: 250px; height: auto; margin-bottom: 15px;">
+                                <p style="color: #333; font-size: 14px; line-height: 1.6;">ติดตั้งอุปกรณ์ประจำที่นั่งอาหาร<br>เพื่อให้ลูกค้าสั่งอาหารผ่านแอป ในการสั่งอาหาร<br>และชำระเงินเร็ว</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="final-cta">
+        <h2 class="final-cta-title">DISCOVER RTLS SOLUTIONS</h2>
+        <p class="final-cta-description">
+            Transform your operations with real-time location intelligence. Contact us to explore RTLS possibilities.
+        </p>
+        <a href="index.html#contact" class="cta-button">LET'S CONNECT WIHT US !</a>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
